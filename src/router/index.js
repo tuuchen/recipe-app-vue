@@ -69,7 +69,7 @@ const routes = [
     component: () => import('@/views/Wines/Wines.vue'),
     meta: {
       breadcrumb: [
-        { name: 'Home', link: '/recipes' },
+        { name: 'Home', link: '/' },
         { name: 'Wines' }
       ]
     },
